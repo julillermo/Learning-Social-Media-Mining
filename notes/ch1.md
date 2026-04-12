@@ -1,4 +1,4 @@
-Notes:
+# Notes:
 - Frontend Languages: Basic introduction of HTML, CSS, JS
   - HTML:
     - parts of an HTML tag
