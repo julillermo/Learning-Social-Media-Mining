@@ -1,0 +1,11 @@
+# Notes:
+- Actual live sites are messy to retrieve data from
+- **Ethical Considerations for Data Scraping**:
+  - "Scraping information from websites or republishing scraped data without permission may be against a company's terms of service, and you can get banned from the platform or, worse, result in legal action"
+  - [“On the Ethics of Web Scraping”](https://robertorocha.info/on-the-ethics-of-web-scraping/)
+    - _Can I take this data?_
+    - _Can I republish this data?_
+    - _Am I overloading the website's servers?_
+    - _What can I use this data for?_
+- `robots.txt`
+  -
