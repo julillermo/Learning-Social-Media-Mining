@@ -1,0 +1,22 @@
+Notes:
+- Frontend Languages: Basic introduction of HTML, CSS, JS
+  - HTML:
+    - parts of an HTML tag
+  - CSS:
+    - gives HTML styling (colors, etc.
+  - Also touches on how to access **Chrome's Developer Tools**, specifically the feature of highlighting parts of the page
+- Backend Languages
+  - primarily for interacting with databases stored on servers
+- Using Python
+  - Book stated using **Python 3.7**
+  - Goes over how to install python 3.
+  - Goes over running live python via the interactive CLI (REPL)
+    - In `uv` this can be achieved using the `uv python run` command.
+    - Printing text
+    - Basic math operations
+    - Basic string concatenation
+    - Storing variables
+    - List of String
+    - Functions
+    - Loops (also within CLI REPL)
+    - Logical Operators
