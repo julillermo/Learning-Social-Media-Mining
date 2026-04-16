@@ -8,6 +8,7 @@ dependencies = []
 
 [tool.uv.sources]
 ch3 = { workspace = true }
+ch5 = { workspace = true }
 
 [tool.uv.workspace]
 members = ["apps-uv/*"]
