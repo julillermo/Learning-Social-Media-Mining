@@ -1,4 +1,5 @@
 # Notes:
+
 - This is the most technincally relevant chapter in my opinion
 - Actual live sites are messy to retrieve data from
 - **Ethical Considerations for Data Scraping**:
@@ -28,3 +29,18 @@
   - Try to plan & map out how you'll dig into the specific part of the rendered web page using the browser devzeloper tools.
   - Highly utilize the feature where hovering points to the equivalent UI / DOM location.
   - HTML tag `class`, `id`, and `name` attributes are very helpful to directly point to a specific part of the DOM.
+- **Practice Polite Scraping**
+  - Specify _headers_ as part of your request, so the site owner can contact you and communicte polite adjustment to your scraper.
+    - The content within headers isn't struct, but the following are the common tags to use (followed by example values):
+      - `user-agent:` `"Mozilla/5.0 (X11; Linux x86_64; rv:149.0) Gecko/20100101 Firefox/149.0",`
+        - Information about the browser we're using. "While this information is not necessary for bots it may allow your scraper to open websites that normally can't be opened outside of a web browser."
+        - "The user-agent header can communicate information about the browser capabilities our bot might use to opena page within a browser.
+      - `from:` `https://github.com/julillermo`
+  - Specify a delate between each request.
+    - You `time` library include in python.
+    - Use `time.sleep(2)` to delay two seconds at the end of every request.
+
+# Implementation Notes:
+
+- To further avoid overloading the website you're trying to scrape, it'd be better to download the raw HTML, save it as a file, and read from that instead constantly making requests to the website.
+- Skipped the part were the booke was discussing reusability
