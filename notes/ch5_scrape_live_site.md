@@ -25,6 +25,6 @@
   - You should do ethical research before you attempt to write code
   - Contexts on what's legal and ethical can vary dependeong on location, context, purpose, etc.
 - Scraping from a Live Website
-  - Try to plan & map out how you'll dig into the specific part of the rendered web page using the browser developer tools.
+  - Try to plan & map out how you'll dig into the specific part of the rendered web page using the browser devzeloper tools.
   - Highly utilize the feature where hovering points to the equivalent UI / DOM location.
   - HTML tag `class`, `id`, and `name` attributes are very helpful to directly point to a specific part of the DOM.
